@@ -41,6 +41,5 @@ public class b2961 {
             arr.add(i, temp);
         }
 
-
     }
 }
