@@ -11,6 +11,7 @@ public class b2089 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
+        Stack<String> st = new Stack<>();
         n = Integer.parseInt(br.readLine());
         sum = 0; // 실제 합계구하는 녀석!
         int i =1; // 몇번째 자리인지! 0부터 시작!
