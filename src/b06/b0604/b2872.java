@@ -9,24 +9,8 @@ public class b2872 {
     static boolean allOfLower = true;
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder(br.readLine());
 
-        if(is_Cpp(sb) && is_Java(sb) && name_check(sb)) {
-            System.out.println("Error!");
-            return;
-        }
-        if(allOfLower) {
-            System.out.println(sb.toString());
-            return;
-        }
 
-        if(whatIsLanguage) sb = javaToCpp(sb);
-        else sb = cppToJava(sb);
-
-        System.out.println(sb.toString());
-
-        br.close();
     }
     public static boolean name_check(StringBuilder sb) {
         int isUpperCase = 0;
