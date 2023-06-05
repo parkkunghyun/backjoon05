@@ -3,6 +3,7 @@ package b06.b0604;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 public class b3613 {
@@ -15,6 +16,10 @@ public class b3613 {
         int [] arr = new int[n];
         int maxNumber = 0;
         int maxIndex = -1;
+
+        //PriorityQueue<Double> q = new PriorityQueue<>();
+        //q.poll();
+
 
         for(int i =0; i<n; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
